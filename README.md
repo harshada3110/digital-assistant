@@ -34,6 +34,7 @@ Returns the predefined response associated with the named assistant, or an error
 ## Technologies Used
 - **Spring Boot**: Framework for building the application.
 - **Spring Data JPA**: Data access and persistence.
+- **MySQL Database**: Database system for storing assistant data.
 
 ## Setup Instructions
 1. Clone the repository from GitHub or extract project from the zip.
