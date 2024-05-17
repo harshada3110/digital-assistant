@@ -9,11 +9,11 @@ The Digital Assistant Service is a RESTful API designed to allow users to define
 - Method: POST
 - Description: Allows users to define a digital assistant with a custom name and response.
 
-#### Request Parameters:
+- Request Parameters:\
 name (String): The name of the assistant.
 response (String): The response string associated with the assistant.
 
-#### Response: 
+- Response:\
 Returns a success message upon successfully defining the assistant.
 
 ### 2. Send Message Endpoint
@@ -21,13 +21,13 @@ Returns a success message upon successfully defining the assistant.
 - Method: POST
 - Description: Allows users to send a message to a named assistant and receive the predefined response.
 
-#### Path Parameter:
+- Path Parameter:\
 name (String): The name of the assistant to which the message is sent.
 
-#### Request Parameters:
+- Request Parameters:\
 message (String): The message sent to the assistant.
 
-#### Response: 
+- Response:\ 
 Returns the predefined response associated with the named assistant, or an error message if the assistant is not found.
 
 
